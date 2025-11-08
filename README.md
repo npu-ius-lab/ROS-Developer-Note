@@ -1,0 +1,46 @@
+# ROS & PX4 开发笔记
+
+> 记录作者在ROS与PX4开发过程中：
+> - 实现的工具、便捷方法
+> - 代码规范、开发指南
+> - 总结的经验、问题与解决方法
+> - 软件、依赖的配置方法
+
+> 如无特别说明，开发环境均为 **Ubuntu 20.04 + ROS Noetic**。 
+> 持续更新，仅供参考。
+
+---
+
+## 目录
+
+### PX4 & MAVLink & MAVROS 相关
+1. `about_px4.launch`
+> 记录了利用MAVROS连接飞控的原理和参数配置方法，以及利用MAVROS，**使用udp、tcp协议桥接QGC或其他MAVLink客户端**的方法。
+
+2. [`mavcmd_in_cpp`](mavcmd_in_cpp.md)
+> 记录了在C++程序代码中使用MAVROS提供的rosservice向飞控发送MAVLink命令的方法，以**程序化地提高IMU频率、位姿话题频率、强制解锁、设置参数**等
+
+3. [`reset_ekf2`](reset_ekf2.md)
+> 分析了PX4连接GPS时，`local_position`话题的z轴高度出现大幅度漂移的问题，并给出了不下电、**程序化重启EKF位姿估计模块**的方法
+
+4. `setpoint_frame`
+> 分析了通过MAVROS发送setpoint指令时，容易误解的**坐标系规范**。
+
+### ROS 相关
+1. `easy-configure`
+> 开发了一种利用X宏，在C++编程的ROS程序中，**一次性、集中地书写、读取并加载全部参数**的方法，避免了添加参数时，需要在修改yaml的同时在程序中添加getParam的麻烦。
+
+2. `SSH-connect`
+> 记录了在低性能的机载计算机上，如何建立**无图形界面的SSH终端连接**。同时还记录了不通过ip而是主机名来解析目标主机的方法，在频繁切换WIFI的环境中可能有用。
+
+### 硬件相关
+
+待更新
+
+### 软件相关
+
+1. `libtorch-and-trt`
+> 记录了：  
+> (1)X86计算机、Jetson-NX系列**部署libtorch**(pytorch的C++API)的方法；  
+> (2)如何将pytorch的模型**转为torchscript**以在python无关的环境中调用和推理；  
+> (3)将torchscript模型**用TensorRT加速**推理的同时不更改代码和API接口
