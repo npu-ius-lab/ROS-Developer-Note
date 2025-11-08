@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software/git-learning/git-learning.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git-learning"
+              "title": "README"
             }
           }
         ],
@@ -200,6 +200,7 @@
   },
   "active": "c91a502f385fc9cd",
   "lastOpenFiles": [
+    "Software/git-learning/git-learning.md",
     "Software/obsidian/obsidian.md",
     "Software/libtorch-and-trt/libtorch-and-trt.md",
     "ROS/easy-configure/easy-configure.md",
@@ -211,7 +212,6 @@
     "PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.md",
     "PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.py",
     "README.md",
-    "Software/git-learning/git-learning.md",
     "Software/obsidian/obsidian 1.md",
     "ROS/SSH-connect/img/image4.png",
     "ROS/SSH-connect/img/image3.png",
