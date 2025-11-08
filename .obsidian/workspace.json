@@ -4,24 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "f8f010216933782a",
+        "id": "095af808ad7fa1f4",
         "type": "tabs",
         "children": [
           {
-            "id": "e4b187374143f11f",
+            "id": "89922aa001a77cbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
+                "file": "README.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about_px4.launch"
+              "title": "README"
+            }
+          },
+          {
+            "id": "82cb83c0de83556d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -153,7 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -164,15 +180,21 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "bases:创建新数据库": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "047db5ef58322a32",
+  "active": "82cb83c0de83556d",
   "lastOpenFiles": [
-    "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
-    "未命名.base",
-    "PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md",
+    "PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md",
+    "README.md",
     "PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.md",
-    "README.md"
+    "Software/obsidian/obsidian.md",
+    "PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md",
+    "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
+    "PX4-MAVLink-MAVROS/mavcmd_in_cpp/img/1.png",
+    "().md",
+    "Software/obsidian",
+    "未命名.base"
   ]
 }
