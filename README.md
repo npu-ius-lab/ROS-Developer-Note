@@ -24,7 +24,7 @@ Obsidian软件在Windows下应当是开箱即用的。如果在Ubuntu 20.04中�
 ### PX4 & MAVLink & MAVROS 相关
 
 🌠 [`about_px4.launch`](PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md)
-记录了利用MAVROS连接飞控的原理和参数配置方法，以及利用MAVROS，**使用udp、tcp协议桥接QGC或其他MAVLink客户端**的方法。
+记录了利用MAVROS连接飞控的原理和配置方法，以及利用MAVROS，**使用udp、tcp协议桥接QGC或其他MAVLink客户端**的方法。
 
 ☕ [`mavcmd_in_cpp`](PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md)
 记录了在C++程序代码中使用MAVROS提供的rosservice向飞控发送MAVLink命令的方法，以**程序化地提高IMU频率、位姿话题频率**等
@@ -34,6 +34,9 @@ Obsidian软件在Windows下应当是开箱即用的。如果在Ubuntu 20.04中�
 
 🛫 [`setpoint_frame`](PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md)
 分析了通过MAVROS发送setpoint指令时，容易误解的**坐标系规范**。
+
+👀 [`use_vins_pos`](PX4-MAVLink-MAVROS/use_vins_pos/use_vins_pos.md)
+记录了如何**将VINS的定位数据直接发送给PX4飞控**的方法，从而避免使用`px4_ctrl`包，更加信任和利用飞控的能力。
 
 ### ROS 相关
 📑 [`easy-configure`](ROS/easy-configure/easy-configure.md)

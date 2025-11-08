@@ -48,7 +48,7 @@ mavros_msgs::PositionTarget::IGNORE_YAW;
 
 ## 测试
 测试xyz坐标定义很容易，但三轴角度则不易直接观察（因为消息中是四元数）。下面给出一段测试三轴角度定义的python脚本，在终端运行后，你可以实时看到三轴角度的数值。
-欧拉角的旋转顺序遵循tf库的定义（似乎是Z-Y-X？）
+欧拉角的旋转顺序遵循tf库的定义（似乎是Z-Y-X？）。
 ```python
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-

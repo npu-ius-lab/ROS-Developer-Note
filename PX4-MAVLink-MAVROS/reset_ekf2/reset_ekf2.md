@@ -47,6 +47,8 @@
 4. PX4给出了通过Python脚本访问MAVLink Shell的方法
 
 据此便有了解决思路：将需要发送的命令写进[Python脚本](reset_ekf2.py)中并发送。具体实现请查阅脚本，这里不再展开实现原理。
+> 注意需要安装python相关的依赖，因为本质上它是基于3中官方文档给出的脚本改编的。需要执行：`pip install pymavlink pyserial`
+
 > 该脚本期望一个输入参数，指定脚本通过什么方式与PX4建立通信连接。一般来说，在MAVROS占用物理串口的情况下，都通过MAVROS提供的桥接连接。详见[about_px4.launch](PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md)。
 
 从理论上来说，上述程序完全可以在C++中实现，因为MAVLink提供了C++的API。待更新。
