@@ -43,12 +43,19 @@ Obsidian软件在Windows下应当是开箱即用的。如果在Ubuntu 20.04中�
 
 ### 硬件相关
 
-待更新
+1. [`usb-cam-connect`](Hardware/usb-cam-connect/usb-cam-connect.md)
+> 记录了**使用OpenCV连接USB相机并获得画面**的方法。此外还记载了**由ROS图像话题、甚至任意视频、图像来虚拟USB相机设备**的方法。
 
 ### 软件相关
 
-1. `libtorch-and-trt`
+1. `obsidian`
+> 记录了**Ubuntu 20.04系统中安装obsidian笔记软件**的方法。
+
+2. `git-learning`
+> 记录了**学习git相关命令**的笔记。
+
+3. `libtorch-and-trt`
 > 记录了：  
 > (1)X86计算机、Jetson-NX系列**部署libtorch**(pytorch的C++API)的方法；  
 > (2)如何将pytorch的模型**转为torchscript**以在python无关的环境中调用和推理；  
-> (3)将torchscript模型**用TensorRT加速**推理的同时不更改代码和API接口
+> (3)将torchscript模型**用TensorRT加速**推理的同时不更改代码和API接口。
