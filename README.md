@@ -23,16 +23,16 @@ Obsidian软件在Windows下应当是开箱即用的。如果在Ubuntu 20.04中�
 
 ### PX4 & MAVLink & MAVROS 相关
 
-🌠[`about_px4.launch`](PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md)
+🌠 [`about_px4.launch`](PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md)
 记录了利用MAVROS连接飞控的原理和参数配置方法，以及利用MAVROS，**使用udp、tcp协议桥接QGC或其他MAVLink客户端**的方法。
 
-☕[`mavcmd_in_cpp`](mavcmd_in_cpp.md)
-记录了在C++程序代码中使用MAVROS提供的rosservice向飞控发送MAVLink命令的方法，以**程序化地提高IMU频率、位姿话题频率、强制解锁、设置参数**等
+☕ [`mavcmd_in_cpp`](mavcmd_in_cpp.md)
+记录了在C++程序代码中使用MAVROS提供的rosservice向飞控发送MAVLink命令的方法，以**程序化地提高IMU频率、位姿话题频率**等
 
 ⚙ [`reset_ekf2`](reset_ekf2.md)
 分析了PX4连接GPS时，`local_position`话题的z轴高度出现大幅度漂移的问题，并给出了不下电、**程序化重启EKF位姿估计模块**的方法
 
-🛫[`setpoint_frame`](PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md)
+🛫 [`setpoint_frame`](setpoint_frame.md)
 分析了通过MAVROS发送setpoint指令时，容易误解的**坐标系规范**。
 
 ### ROS 相关
@@ -48,10 +48,10 @@ Obsidian软件在Windows下应当是开箱即用的。如果在Ubuntu 20.04中�
 
 ### 软件相关
 
-📓[`obsidian`](Software/obsidian/obsidian.md)
+📓 [`obsidian`](Software/obsidian/obsidian.md)
 记录了**Ubuntu 20.04系统中安装obsidian笔记软件**的方法。
 
-🆙[`git-learning`](Software/git-learning/git-learning.md)
+🆙 [`git-learning`](Software/git-learning/git-learning.md)
 记录了**学习git相关命令**的笔记。
 
 📧 [`libtorch-and-trt`](Software/libtorch-and-trt/libtorch-and-trt.md)

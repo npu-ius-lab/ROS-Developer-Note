@@ -45,6 +45,7 @@ mavros_msgs::PositionTarget::IGNORE_YAW;
 >
 >但这会迷惑我们开发者！我们只需要关心：发送到MAVROS的指令是什么坐标系就可以了。
 
+
 ## 测试
 测试xyz坐标定义很容易，但三轴角度则不易直接观察（因为消息中是四元数）。下面给出一段测试三轴角度定义的python脚本，在终端运行后，你可以实时看到三轴角度的数值。
 欧拉角的旋转顺序遵循tf库的定义（似乎是Z-Y-X？）
@@ -100,3 +101,8 @@ if __name__ == '__main__':
 		# 确保程序退出时，终端能换行
 		print("\n程序已退出。")
 ```
+
+## 参考文献
+详见：
+[The doc of mavros_msgs about coordinate needs better clarification](https://github.com/mavlink/mavros/issues/1500)
+[mavros坐标系转换与方向](https://blog.csdn.net/benchuspx/article/details/112970682)
