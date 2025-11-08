@@ -38,10 +38,12 @@ Obsidian软件在Windows下应当是开箱即用的。如果在Ubuntu 20.04中�
 1. `easy-configure`
 开发了一种利用python生成脚本，在C++编程的ROS程序中，**一次性、集中地书写、读取并加载全部参数**的方法，避免了添加参数时，需要在修改yaml的同时在程序中添加getParam的麻烦。
 
+
+
 2. `SSH-connect`
 记录了在低性能的机载计算机上，如何建立**无图形界面的SSH终端连接**。同时还记录了不通过ip而是主机名来解析目标主机的方法，在频繁切换WIFI的环境中可能有用。
 
-### 硬件相关
+### 📹 硬件相关
 
 1. [`usb-cam-connect`](Hardware/usb-cam-connect/usb-cam-connect.md)
 记录了**使用OpenCV连接USB相机并获得画面**的方法。此外还记载了**由ROS图像话题、甚至任意视频、图像来虚拟USB相机设备**的方法。
