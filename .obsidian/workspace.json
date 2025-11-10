@@ -8,45 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b524446634b6197d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
-            "id": "026d9d18e5cd2778",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "README"
-            }
-          },
-          {
             "id": "3afb52f02777a8ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
-                "mode": "source",
+                "file": "Hardware/usb-cam-connect/usb-cam-connect.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about_px4.launch"
+              "title": "usb-cam-connect"
             }
           },
           {
@@ -77,8 +49,7 @@
               "title": "README"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,15 +197,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "026d9d18e5cd2778",
+  "active": "3afb52f02777a8ad",
   "lastOpenFiles": [
+    "ROS/easy-configure/easy-configure.md",
+    "ROS/easy-configure/config.py",
+    "PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md",
     "PX4-MAVLink-MAVROS/use_vins_pos/use_vins_pos.md",
+    "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
     "README.md",
     "PX4-MAVLink-MAVROS/use_vins_pos",
-    "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
     "PX4-MAVLink-MAVROS/about_px4.launch/about_usermod.md",
     "PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.md",
-    "PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md",
     "PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md",
     "PX4-MAVLink-MAVROS/about_px4.launch/img/1.png",
     "PX4-MAVLink-MAVROS/about_px4.launch/img/2025-11-08 22-39-02 的屏幕截图.png",
@@ -243,7 +216,6 @@
     "Software/libtorch-and-trt/libtorch-and-trt.md",
     "Software/git-learning/git-learning.md",
     "ROS/SSH-connect/SSH-connect.md",
-    "ROS/easy-configure/easy-configure.md",
     "Hardware/usb-cam-connect/usb-cam-connect.md",
     "PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.py",
     "Software/obsidian/obsidian 1.md",
@@ -261,7 +233,6 @@
     "Software.md",
     "().md",
     "Hardware/usb-cam-connect",
-    "PX4-MAVLink-MAVROS/mavcmd_in_cpp/img/1.png",
-    "Software/obsidian"
+    "PX4-MAVLink-MAVROS/mavcmd_in_cpp/img/1.png"
   ]
 }
