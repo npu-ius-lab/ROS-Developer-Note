@@ -4,11 +4,11 @@
 
 MAVROS实际上是PX4与ROS之间的一个通信“桥梁”，这个桥梁建立在MAVLink协议上。当然作为开发者，我们无需关心这是如何实现的，只需要知道一些实用的技巧即可。
 
-关于**编程地自动提高IMU话题频率**的问题，请查看[这里](PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md)。
+关于**编程地自动提高IMU话题频率**的问题，请查看[这里](/mavcmd_in_cpp/mavcmd_in_cpp.md)。
 
-关于**编程地重置`local_position`系列话题原点**的问题，请查看[这里](PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.md)。
+关于**编程地重置`local_position`系列话题原点**的问题，请查看[这里](/reset_ekf2/reset_ekf2.md)。
 
-关于**MAVROS发送坐标指令的坐标系问题**，请查看[这里](PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md)。
+关于**MAVROS发送坐标指令的坐标系问题**，请查看[这里](/setpoint_frame/setpoint_frame.md)。
 
 关于MAVROS和PX4的**通信配置问题**，请查看本文。
 
@@ -31,7 +31,7 @@ MAVROS实际上是PX4与ROS之间的一个通信“桥梁”，这个桥梁建�
 ```
 这代表：MAVROS和飞控使用`/dev/ttyUSB0`建立连接，波特率是921600。
 
-此外，我们还可以使用USB线直连PX4和飞控，这样识别到的串口地址就为`/dev/ttyACM0`。ACM是一种通过USB虚拟串口的技术，对它来说设置波特率是无意义的，因为USB的通信速率远高于串口。
+此外，我们还可以使用USB线直连PX4和飞控，这样识别到的串口地址就为`/dev/ttyACM0`。ACM是一种通过USB虚拟串口的技术，对它来说设置波特率是无意义的，因为USB的通信速率远高于串口。但是你仍然需要设置一个值来满足语法条件，所以仍然书写921600吧。
 
 个人推荐使用USB线直连的方法连接（虽然有时它对机身空间要求较高）。但是注意，[Ubuntu内置的调制解调器模块可能会影响通信](https://docs.qgroundcontrol.com/master/en/qgc-user-guide/getting_started/download_and_install.html)，需要卸载：
 ```bash
@@ -43,7 +43,7 @@ sudo apt remove --purge modemmanager
 sudo usermod -aG dialout "$(id -un)"
 ```
 
-这条命令实质上解释了为什么有些电脑连接MAVROS可以不用`sudo chmod 777 /dev/ttyUSB0`来赋权限，而有些电脑需要。此外，执行了上述命令，就**再也不需要为串口单独赋权了**，原理详见[这里](PX4-MAVLink-MAVROS/about_px4.launch/about_usermod.md)。
+这条命令实质上解释了为什么有些电脑连接MAVROS可以不用`sudo chmod 777 /dev/ttyUSB0`来赋权限，而有些电脑需要。此外，执行了上述命令，就**再也不需要为串口单独赋权了**，原理详见[这里](about_usermod.md)。
 ## QGC桥接
 
 `gcs_url`是MAVROS提供的，用来桥接到**QGC等客户端**的地址。因为MAVROS独占了物理通信端口，导致QGC等客户端没有端口能与飞控通信，所以MAVROS提供了这个功能。

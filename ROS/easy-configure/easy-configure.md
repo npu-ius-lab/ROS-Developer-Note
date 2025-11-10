@@ -27,7 +27,7 @@
 
 使用方法非常简单：
 1. 将你**唯一的参数文件**命名为config.yaml，并放在你ROS功能包中的config文件夹下；
-2. 将[config.py](ROS/easy-configure/config.py)放在config文件夹下；
+2. 将[config.py](config.py)放在config文件夹下；
 3. 在你功能包的CMakeLists.txt中，加入如下片段：
 ```cmake
 # ==============================================================================
