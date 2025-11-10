@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hardware/usb-cam-connect/usb-cam-connect.md",
+                "file": "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "usb-cam-connect"
+              "title": "about_px4.launch"
             }
           },
           {
@@ -199,6 +199,7 @@
   },
   "active": "3afb52f02777a8ad",
   "lastOpenFiles": [
+    "Hardware/usb-cam-connect/usb-cam-connect.md",
     "Software/obsidian/obsidian.md",
     "ROS/SSH-connect/SSH-connect.md",
     "ROS/easy-configure/easy-configure.md",
@@ -207,7 +208,6 @@
     "PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md",
     "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
     "PX4-MAVLink-MAVROS/about_px4.launch/about_usermod.md",
-    "Hardware/usb-cam-connect/usb-cam-connect.md",
     "ROS/easy-configure/config.py",
     "PX4-MAVLink-MAVROS/use_vins_pos/use_vins_pos.md",
     "README.md",
