@@ -4,11 +4,11 @@
 
 MAVROS实际上是PX4与ROS之间的一个通信“桥梁”，这个桥梁建立在MAVLink协议上。当然作为开发者，我们无需关心这是如何实现的，只需要知道一些实用的技巧即可。
 
-关于**编程地自动提高IMU话题频率**的问题，请查看[这里](PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md)。
+关于**编程地自动提高IMU话题频率**的问题，请查看[这里](/PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md)。
 
-关于**编程地重置`local_position`系列话题原点**的问题，请查看[这里](/reset_ekf2/reset_ekf2.md)。
+关于**编程地重置`local_position`系列话题原点**的问题，请查看[这里](/PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.md)。
 
-关于**MAVROS发送坐标指令的坐标系问题**，请查看[这里](/setpoint_frame/setpoint_frame.md)。
+关于**MAVROS发送坐标指令的坐标系问题**，请查看[这里](/PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md)。
 
 关于MAVROS和PX4的**通信配置问题**，请查看本文。
 
