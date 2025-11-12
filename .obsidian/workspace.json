@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
+                "file": "PX4-MAVLink-MAVROS/use_vins_pos/use_vins_pos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about_px4.launch"
+              "title": "use_vins_pos"
             }
           },
           {
@@ -199,24 +199,29 @@
   },
   "active": "3afb52f02777a8ad",
   "lastOpenFiles": [
+    "PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md",
+    "PX4-MAVLink-MAVROS/use_vins_pos/use_vins_pos.md",
+    "PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md",
+    "PX4-MAVLink-MAVROS/about_px4.launch/about_usermod.md",
+    "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
     "Hardware/usb-cam-connect/usb-cam-connect.md",
+    "Hardware/usb-cam-connect/stereo_combiner.py",
+    "Hardware/usb-cam-connect/find_camera.cpp",
+    "Hardware/usb-cam-connect/image_test.py",
+    "ROS/easy-configure/easy-configure.md",
+    "Hardware/usb-cam-connect/show_cam.cpp",
+    "Hardware/usb-cam-connect/show_cam.py",
+    "Software/git-learning/git-learning.md",
+    "PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.md",
     "Software/obsidian/obsidian.md",
     "ROS/SSH-connect/SSH-connect.md",
-    "ROS/easy-configure/easy-configure.md",
-    "PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md",
-    "PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.md",
-    "PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md",
-    "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
-    "PX4-MAVLink-MAVROS/about_px4.launch/about_usermod.md",
     "ROS/easy-configure/config.py",
-    "PX4-MAVLink-MAVROS/use_vins_pos/use_vins_pos.md",
     "README.md",
     "PX4-MAVLink-MAVROS/use_vins_pos",
     "PX4-MAVLink-MAVROS/about_px4.launch/img/1.png",
     "PX4-MAVLink-MAVROS/about_px4.launch/img/2025-11-08 22-39-02 的屏幕截图.png",
     "PX4-MAVLink-MAVROS/about_px4.launch/img",
     "Software/libtorch-and-trt/libtorch-and-trt.md",
-    "Software/git-learning/git-learning.md",
     "PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.py",
     "Software/obsidian/obsidian 1.md",
     "ROS/SSH-connect/img/image4.png",
@@ -224,15 +229,10 @@
     "ROS/SSH-connect/img/image2.png",
     "ROS/SSH-connect/img/image1.png",
     "ROS/SSH-connect/img",
-    "Software/libtorch-and-trt",
-    "Software/git-learning",
-    "ROS/SSH-connect",
-    "ROS/easy-configure",
     "ROS.md",
     "PX4-MAVLink-MAVROS.md",
     "Software.md",
     "().md",
-    "Hardware/usb-cam-connect",
     "PX4-MAVLink-MAVROS/mavcmd_in_cpp/img/1.png"
   ]
 }
