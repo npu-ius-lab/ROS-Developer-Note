@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PX4-MAVLink-MAVROS/use_vins_pos/use_vins_pos.md",
-                "mode": "source",
+                "file": "Software/git-learning/git-learning.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "use_vins_pos"
+              "title": "git-learning"
             }
           },
           {
@@ -199,8 +199,12 @@
   },
   "active": "3afb52f02777a8ad",
   "lastOpenFiles": [
-    "PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md",
+    "ROS/easy-configure/easy-configure.md",
+    "Software/git-learning/git-learning.md",
     "PX4-MAVLink-MAVROS/use_vins_pos/use_vins_pos.md",
+    "PX4-MAVLink-MAVROS/setpoint_frame/setpoint_frame.md",
+    "Software/libtorch-and-trt/libtorch-and-trt.md",
+    "Software/obsidian/obsidian.md",
     "PX4-MAVLink-MAVROS/mavcmd_in_cpp/mavcmd_in_cpp.md",
     "PX4-MAVLink-MAVROS/about_px4.launch/about_usermod.md",
     "PX4-MAVLink-MAVROS/about_px4.launch/about_px4.launch.md",
@@ -208,12 +212,9 @@
     "Hardware/usb-cam-connect/stereo_combiner.py",
     "Hardware/usb-cam-connect/find_camera.cpp",
     "Hardware/usb-cam-connect/image_test.py",
-    "ROS/easy-configure/easy-configure.md",
     "Hardware/usb-cam-connect/show_cam.cpp",
     "Hardware/usb-cam-connect/show_cam.py",
-    "Software/git-learning/git-learning.md",
     "PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.md",
-    "Software/obsidian/obsidian.md",
     "ROS/SSH-connect/SSH-connect.md",
     "ROS/easy-configure/config.py",
     "README.md",
@@ -221,7 +222,6 @@
     "PX4-MAVLink-MAVROS/about_px4.launch/img/1.png",
     "PX4-MAVLink-MAVROS/about_px4.launch/img/2025-11-08 22-39-02 的屏幕截图.png",
     "PX4-MAVLink-MAVROS/about_px4.launch/img",
-    "Software/libtorch-and-trt/libtorch-and-trt.md",
     "PX4-MAVLink-MAVROS/reset_ekf2/reset_ekf2.py",
     "Software/obsidian/obsidian 1.md",
     "ROS/SSH-connect/img/image4.png",
